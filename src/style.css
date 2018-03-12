@@ -1,0 +1,78 @@
+/*Sources : w3 schools and CodeAcademy */
+p{ 
+	font-size:1.2em
+	}
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: white;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; 
+			  color: orange;
+			}
+
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #061b3d;
+}
+/
+#page{ margin: 20px; }
+
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: #061b3d;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+	margin: 40px 0;
+	background: white;
+	padding: 40px;
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }

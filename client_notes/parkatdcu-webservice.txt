@@ -1,0 +1,27 @@
+CA377: Park@DCU real-time webservice
+
+Suzanne Little
+suzanne.little@dcu.ie
+3rd October 2016
+
+This is a simple simulation of a webservice to get (fake) real-time car park availabilty. Call the service at
+
+http://suzannelittle.pythonanywhere.com/carpark/<location>
+
+where location can be one of the following:
+    Multistorey (CP1): multistorey
+    Creche (CP2): creche
+    Invent (CP3): invent
+    Library (CP4): library
+    St Pats CP: StPats
+    DCU Alpha CP: alpha
+
+The service will remove capitalisation and spaces so variations should also work. The service returns JSON with a number ("spaces_available") showing the free spaces in car park ("carpark_name") at "timestamp".
+
+Example: "{"timestamp": "12:15:44", "carpark_name": "creche", "spaces_available": 92}"
+
+There's also a service that randomly returns different errors or incorrect results called "badpark". 
+
+http://suzannelittle.pythonanywhere.com/badpark/<location>
+
+You should also be prepared to handle future changes and updates to the service.

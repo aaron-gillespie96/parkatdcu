@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Importing JQuery librarys -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+<div data-role="page" data-theme="b" id="pagefive">
+  <div data-role="header">
+     <h1>Park At DCU</h1>
+	 <!-- Navigation Bar -->
+    <div data-role="navbar">
+      <ul>
+		<li><a href="index.html">Home</br></a></li>
+        <li><a href="webservice.html">Real</br>Time</a></li>
+		<li><a href="closest.html">Closest</br>CarPark</a></li>
+		<li><a href="campus.html">Campus</br>Info</a></li>
+		<li><a href="historical.html">Historical</br>Info</a></li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <form action="database.php" method="get">
+		<h2><u>Below Displays the spaces on the selected campus sorted by type</u></h2>
+		<p>Select your campus:
+		<select name="spaceType">
+		<option value="Glasnevin">Glasnevin</option>
+		<option value="St Pats">St Pats</option>
+		<option value="DCU Alpha">DCU Alpha</option>
+		</select>
+		</p>
+		<input name="query" value="q2" type="hidden"/>
+		<input type="submit" value="Submit">
+		</form>
+		</p>
+</form>
+			</p>
+  </div>
+
+  <div data-role="footer">
+    <h1>Created By Aaron Gillespie 14314471</h1>
+  </div>
+</div> 
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Importing JQuery librarys -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" data-theme="b" id="pagesix">
+  <div data-role="header">
+    <h1>Park At DCU</h1>
+	<!-- Navigation Bar -->
+    <div data-role="navbar">
+      <ul>
+         <li><a href="index.html">Home</br></a></li>
+        <li><a href="webservice.html">Real</br>Time</a></li>
+		<li><a href="closest.html">Closest</br>CarPark</a></li>
+		<li><a href="campus.html">Campus</br>Info</a></li>
+		<li><a href="historical.html">Historical</br>Info</a></li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+	
+   <h2><u>Select The carpark you want to find historical data on:</u></h2>
+<form action="database.php" method="get">
+		<select name="carpark">
+  		<option value="Multistorey (CP1)">Multistorey (CP1)</option>
+      	<option value="Creche (CP2)">Creche (CP2)</option>
+		<option value="Invent (CP3)">Invent (CP3)</option>
+		<option value="Library (CP4)">Library (CP4))</option>
+		<option value="St Pats CP">St Pats CP</option>
+		<option value="DCU Alpha CP">DCU Alpha CP</option>
+	</select>
+		<select name="weekOfYear">
+				<option value="1">week 1</option>
+      			<option value="2">week 2</option>
+      			<option value="3">week 3</option>
+      			<option value="4">week 4</option>
+      			<option value="5">week 5</option>
+      			<option value="6">week 6</option>
+      			<option value="7">week 7</option>
+      			<option value="8">week 8</option>
+      			<option value="9">week 9</option>
+      			<option value="10">week 10</option>
+      			<option value="11">week 11</option>
+      			<option value="12">week 12</option>
+      			<option value="13">week 13</option>
+      			<option value="14">week 14</option>
+      			<option value="15">week 15</option>
+				<option value="16">week 16</option>
+      			<option value="17">week 17</option>
+      			<option value="18">week 18</option>
+      			<option value="19">week 19</option>
+      			<option value="20">week 20</option>
+      			<option value="21">week 21</option>
+      			<option value="22">week 22</option>
+      			<option value="23">week 23</option>
+      			<option value="24">week 24</option>
+      			<option value="25">week 25</option>
+      			<option value="26">week 26</option>
+      			<option value="27">week 27</option>
+      			<option value="28">week 28</option>
+      			<option value="29">week 29</option>
+      			<option value="30">week 30</option>
+				<option value="31">week 31</option>
+      			<option value="32">week 32</option>
+      			<option value="33">week 33</option>
+      			<option value="34">week 34</option>
+      			<option value="35">week 35</option>
+      			<option value="36">week 36</option>
+      			<option value="37">week 37</option>
+      			<option value="38">week 38</option>
+      			<option value="39">week 39</option>
+      			<option value="40">week 40</option>
+				<option value="41">week 41</option>
+      			<option value="42">week 42</option>
+      			<option value="43">week 43</option>
+      			<option value="44">week 44</option>
+      			<option value="45">week 45</option>
+      			<option value="46">week 46</option>
+      			<option value="47">week 47</option>
+      			<option value="48">week 48</option>
+      			<option value="49">week 49</option>
+      			<option value="50">week 50</option>
+      			<option value="51">week 51</option>
+      			<option value="52">week 52</option>
+	</select>
+  	<input name="query" value="q3" type="hidden"/>
+  <input type="submit" value="Submit">
+</form>
+  </div>
+</div>
+  <div data-role="footer">
+ <h1>Created By Aaron Gillespie 14314471</h1>
+  </div>
+</div> 
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Park At DCU</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<!-- Start of page css -->
+<div id="page">
+		<div id="logo">
+		<!-- Logo -->
+			<a href="index.html">
+			<img src="dcu.jpg" alt="DCU Logo" style="width:124px;height:50px;">
+			<h1><a href="index.html" id="logoLink">Park At DCU</a></h1>
+			</a>
+		</div>
+		<!-- Navigation Bar -->
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="webserviceindex.html">Real Time Information</a></li>
+				<li><a href="Query1.html">Closest CarPark</a></li>
+				<li><a href="Query2.html">Campus Space Information</a></li>
+				<li><a href="Query4.html">Historical Information</a></li>
+			</ul>	
+		</div>
+		<!-- Content -->
+		<div id="content">
+		<!-- text box -->
+			<h2><u>WebService</u></h2>
+			<p>
+			<form action="webservicerun.php" method="get">Carpark: <input type="text" name="carpark"><br>
+			
+			Choose Type of space
+			<!-- form -->
+			<select name = "spaceType">
+			<option value="ordinary">ordinary</option>
+			<option value="disabled">disabled</option>
+			<option value="all">all</option>
+			</select>
+			
+			<input type="submit">
+			</form>
+			</p>
+		</div>
+		<!-- Footer -->
+		<div id="footer">
+			<p>
+				Webpage made by <a href="https://ie.linkedin.com/in/aaron-gillespie-b01a1365" >[Aaron Gillespie 14314471]</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

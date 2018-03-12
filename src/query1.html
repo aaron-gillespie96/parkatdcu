@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Park At DCU</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<!-- Start of page css -->
+	<div id="page">
+	<!-- Logo -->
+		<div id="logo">
+			<a href="index.html">
+			<img src="dcu.jpg" alt="DCU Logo" style="width:124px;height:50px;">
+			<h1><a href="index.html" id="logoLink">Park At DCU</a></h1>
+			</a>
+		</div>
+		<!-- Navigation Bar -->
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="webserviceindex.html">Real Time Information</a></li>
+				<li><a href="Query1.html">Closest CarPark</a></li>
+				<li><a href="Query2.html">Campus Space Information</a></li>
+				<li><a href="Query4.html">Historical Information</a></li>
+			</ul>	
+		</div>
+		<!-- Content -->
+		<div id="content">
+			<p>
+			<!-- Start of form for query 1 , linked to database file -->
+			<form action="database.php" method="get">
+			<h2><u>Select the facilty you wish to park close to bellow and the most suitable carpark will be returned</u></h2>
+			<p>Select The facality:
+			<select name="facility">
+			<option value="helix">Helix</option>
+			<option value="business">Business</option>
+			<option value="main reception">Main reception</option>
+			<option value="creche">Creche</option>
+			<option value="1838">1838</option>
+			<option value="invent">Invent</option>
+			<option value="library">Library</option>
+			<option value="gardens">Gardens</option>
+			<option value="sports grounds">Sports grounds</option>
+			<option value="met eireann">Met Eireann</option>
+			</select>
+  </p>
+  <input name="query" value="q1" type="hidden"/>
+  <input type="submit">
+</form>
+			</p>
+		</div>
+		<!-- Footer -->
+		<div id="footer">
+			<p>
+				Webpage made by <a href="https://ie.linkedin.com/in/aaron-gillespie-b01a1365" >[Aaron Gillespie 14314471]</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
